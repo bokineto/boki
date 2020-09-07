@@ -1,0 +1,42 @@
+.table-honor{
+  max-height: 300px;
+  overflow: auto;
+}
+
+.picture-player-details{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 40px;
+}
+
+.text-player{
+  max-height: 300px;
+  overflow: auto;
+}
+
+.box-player-details{
+  clear: left;
+}
+
+
+
+.box-contract{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.box-contract p {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  h3{
+    font-size: 25px !important;
+  }
+  .index-honor-table th:first-child{
+    padding-top: 12px;
+    height: auto;
+  }
+}
+
